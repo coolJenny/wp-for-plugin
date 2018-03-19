@@ -14,7 +14,8 @@ get_header();
 ?>
 <div class="container">
      <div class="page_content">
-        <div id="header-carousel" class="carousel slide carousel-fade header-carousel" data-ride="carousel">
+      
+        <!-- <div id="header-carousel" class="carousel slide carousel-fade header-carousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#header-carousel" data-slide-to="1"></li>   
@@ -305,8 +306,8 @@ get_header();
                     <a href="blog.html" class="btn black-btn">See All Posts</a>
                 </div>                
             </section>
-        </div>
-        
+        </div> -->
+
         <div class="clear"></div>
     </div><!-- site-aligner -->
 </div><!-- content -->
