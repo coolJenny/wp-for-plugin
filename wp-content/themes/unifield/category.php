@@ -16,10 +16,13 @@ get_header(); ?>
      <div class="page_content">
         <section class="site-main fullwidth">
             <header class="page-header">
+                <div class="general-title bg-color">
 				 <?php
-						the_archive_title( '<h1 class="entry-title">', '</h1>' );
-						the_archive_description( '<div class="taxonomy-description">', '</div>' );
-					?> 
+						the_archive_title( '<h2>', '</h2>' );                        
+						// the_archive_description( '<div class="taxonomy-description">', '</div>' );
+					?>
+                    <div class="title-devider"></div>
+                </div>
             </header><!-- .page-header -->
 			<?php if ( have_posts() ) : ?>
                 <div class="blog-post">
