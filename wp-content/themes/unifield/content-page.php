@@ -7,6 +7,14 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="general-title bg-color">
+        <?php 
+        	the_title( '<h2 class="entry-title">', '</h2>' ); 
+        ?>
+        <div class="title-devider"></div>
+    </div>
+	
+
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -16,5 +24,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', 'unifield' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->

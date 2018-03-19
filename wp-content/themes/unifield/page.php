@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-	<div class="container">
+	<div class="container-fluid">
       <div class="page_content">
     		 <section class="site-main fullwidth">
             		<?php while( have_posts() ) : the_post(); ?>
